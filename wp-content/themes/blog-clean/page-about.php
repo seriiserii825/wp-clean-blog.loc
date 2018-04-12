@@ -31,7 +31,7 @@ Template Name: About
                 <h4>Lorem ipsum dolor sit amet</h4>
                 
                 <div class="left">
-                    <a href="#"><img src="images/chart1.png" alt="chart 1" /></a>                </div>
+                    <a href="#"><img src="<?php bloginfo('template_url'); ?>/assets/images/chart1.png" alt="chart 1" /></a>                </div>
           <div class="right">
                     <p align="justify">Curabitur ullamcorper neque et justo aliquet at pretium orci  scelerisque. Mauris sodales tristique dignissim. Phasellus ut augue  nibh. <a href="#">Aliquam vel libero</a> sit amet mauris posuere ullamcorper  sollicitudin ac eros. Vestibulum auctor euismod mi et tincidunt. </p>
                 
@@ -52,7 +52,7 @@ Template Name: About
             <h4>Morbi sed nulla ac est cursus suscipit</h4>
             
                 <div class="left">
-                  <a href="#"><img src="images/chart2.png" alt="chart 2" /></a>                </div>
+                  <a href="#"><img src="<?php bloginfo('template_url'); ?>/assets/images/chart2.png" alt="chart 2" /></a>                </div>
           		<div class="right">
                     <p align="justify">Phasellus diam orci, rhoncus sed condimentum et, sodales vel leo. Nunc  dignissim quam a nisi placerat gravida. Suspendisse potenti. <a href="#">Curabitur  suscipit lacus</a> vestibulum mi accumsan bibendum. Vivamus gravida, dui  eget tincidunt rutrum, ante justo malesuada lacus.</p>
                     

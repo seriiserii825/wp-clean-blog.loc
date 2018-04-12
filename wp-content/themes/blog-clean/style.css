@@ -22,6 +22,12 @@ a:hover {
     text-decoration: none;
 }
 
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
 p { margin: 0px; padding: 0 0 10px 0; }
 img { border: none; }
 
@@ -484,6 +490,7 @@ em { color: #5d6d1e; }
 
 #contact_form form .input_field {
     width: 350px;
+    margin-bottom: 15px;
     padding: 6px 0;
     background: #fff;
     border: 1px solid #ccc;
@@ -493,6 +500,7 @@ em { color: #5d6d1e; }
     display: block;
     width: 100px;
     margin-right: 10px;
+    margin-bottom: -15px;
     font-size: 14px;
 }
 
@@ -504,7 +512,8 @@ em { color: #5d6d1e; }
 }
 
 #contact_form form .submit_btn {
-    margin-left: 110px;
+    display: inline-block;
+    margin-left: 20px;
     padding: 5px 10px;
     background: #EEEEEE;
     border: 1px solid #AAAAAA;

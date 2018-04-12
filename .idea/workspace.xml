@@ -26,38 +26,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/blog-clean/index.php">
+      <file leaf-file-name="page-contacts.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/blog-clean/page-contacts.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="541">
-              <caret line="80" column="22" lean-forward="true" selection-start-line="80" selection-start-column="22" selection-end-line="80" selection-end-column="22" />
+            <state relative-caret-position="379">
+              <caret line="31" selection-start-line="31" selection-end-line="31" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="header.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/blog-clean/header.php">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/blog-clean/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="14" column="27" lean-forward="true" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="footer.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/blog-clean/footer.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="14" column="21" lean-forward="true" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="page-about.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/blog-clean/page-about.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="22" column="30" lean-forward="true" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
+            <state relative-caret-position="258">
+              <caret line="514" column="26" selection-start-line="514" selection-start-column="26" selection-end-line="514" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -73,15 +55,19 @@
       <find>logo</find>
       <find>site_title</find>
       <find>current</find>
+      <find>`</find>
+      <find>&quot;images/</find>
+      <find>label</find>
+      <find>submit</find>
     </findStrings>
     <replaceStrings>
       <replace>&lt;img src=&quot;&lt;?php bloginfo('template_url') ?&gt;/assets/images</replace>
+      <replace>&quot;&lt;?php bloginfo('template_url'); ?&gt;/assets/images/</replace>
     </replaceStrings>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/wp-content/themes/blog-clean/style.css" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/wp-content/themes/blog-clean/sidebar.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/blog-clean/index.php" />
@@ -90,9 +76,12 @@
         <option value="$PROJECT_DIR$/wp-content/themes/blog-clean/page-6.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/blog-clean/assets/header-portfolio.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/blog-clean/footer.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/blog-clean/page-about.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/blog-clean/functions.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/blog-clean/header.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/blog-clean/category.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/blog-clean/page-about.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/blog-clean/page-contacts.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/blog-clean/style.css" />
       </list>
     </option>
   </component>
@@ -106,10 +95,9 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="20" />
-    <option name="y" value="20" />
-    <option name="width" value="1400" />
-    <option name="height" value="820" />
+    <option name="x" value="-7" />
+    <option name="width" value="734" />
+    <option name="height" value="867" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -213,6 +201,11 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\OSPanel\domains\wp-clean-blog.loc\wp-content\themes\blog-clean" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -416,13 +409,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/blog-clean/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="165" column="74" selection-start-line="165" selection-start-column="74" selection-end-line="165" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/blog-clean/assets/header-portfolio.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="594">
@@ -434,13 +420,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret selection-end-line="138" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/blog-clean/page-portfolio.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="16" column="51" selection-start-line="16" selection-start-column="51" selection-end-line="16" selection-end-column="51" />
         </state>
       </provider>
     </entry>
@@ -461,13 +440,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/blog-clean/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="541">
-          <caret line="80" column="22" lean-forward="true" selection-start-line="80" selection-start-column="22" selection-end-line="80" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/blog-clean/assets/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
@@ -475,10 +447,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/blog-clean/page-about.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/blog-clean/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="22" column="30" lean-forward="true" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
+        <state relative-caret-position="541">
+          <caret line="80" column="22" lean-forward="true" selection-start-line="80" selection-start-column="22" selection-end-line="80" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/blog-clean/category.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="559">
+          <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/blog-clean/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="27" lean-forward="true" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
         </state>
       </provider>
     </entry>
@@ -489,10 +475,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/blog-clean/header.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/blog-clean/page-about.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="27" lean-forward="true" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+        <state relative-caret-position="188">
+          <caret line="29" column="37" lean-forward="true" selection-start-line="29" selection-start-column="37" selection-end-line="29" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/blog-clean/page-portfolio.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" column="51" selection-start-line="16" selection-start-column="51" selection-end-line="16" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/blog-clean/assets/contact.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="75" column="8" selection-start-line="75" selection-start-column="8" selection-end-line="109" selection-end-column="35" />
+          <folding>
+            <element signature="n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/blog-clean/page-contacts.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="379">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/blog-clean/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="514" column="26" selection-start-line="514" selection-start-column="26" selection-end-line="514" selection-end-column="26" />
         </state>
       </provider>
     </entry>
