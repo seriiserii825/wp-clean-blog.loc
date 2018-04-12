@@ -43,20 +43,28 @@
         </div>
         
         <div id="templatemo_main">
+          
+            <?php $index_posts = new WP_Query([
+                    'category_name' => 'blog'
+            ]);?>
         
-            <?php if ( have_posts() ) :  while ( have_posts() ) : the_post(); ?>
+            <?php if ( $index_posts->have_posts() ) :  while ( $index_posts->have_posts() ) : $index_posts->the_post(); ?>
               <div class="post_section">
                 
-                  <span class="comment"><a href="blog_post.html">256</a></span>
+                  <span class="comment">
+                    <a href="blog_post.html">256</a>
+                  </span>
               
-                  <h2><a href="blog_post.html"><?php the_title();?></a></h2>
+                  <h2>
+                    <a href="<?php the_permalink();?>"><?php the_title();?></a>
+                  </h2>
                   
                   December 24, 2048 | <strong>Author:</strong> Steve | <strong>Category:</strong>
                   <a href="#">Web Design</a>
-                  
-                  <img src="<?php bloginfo( 'template_url' ) ?>/assets/images/templatemo_image_02.jpg" alt="image 2"/>
 	
-	              <?php the_field('excerpt');?>
+	              <?php the_post_thumbnail('middle');?>
+	
+	              <p><?php the_field('excerpt');?></p>
                 
                 <a href="<?php the_permalink();?>">Continue reading...</a>
               

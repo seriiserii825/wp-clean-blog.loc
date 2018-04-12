@@ -7,6 +7,18 @@
 <meta name="description" content="Clean Blog Template is provided by templatemo.com" />
 	
 	<?php wp_head();?>
+	
+	<?php if(is_page('Blog')):?>
+    <link href="<?php bloginfo('template_url'); ?>/assets/s3slider.css" rel="stylesheet" type="text/css" />
+  <?php endif;  ?>
+	
+	<?php if(is_page('6')):?>
+    <!--////// CHOOSE ONE OF THE 3 PIROBOX STYLES  \\\\\\\-->
+    <link href="<?php bloginfo('template_url');?>/assets/css_pirobox/white/style.css" media="screen" title="shadow" rel="stylesheet" type="text/css" />
+    <!--<link href="css_pirobox/white/style.css" media="screen" title="white" rel="stylesheet" type="text/css" />
+    <link href="css_pirobox/black/style.css" media="screen" title="black" rel="stylesheet" type="text/css" />-->
+      <!--////// END  \\\\\\\-->
+  <?php endif;  ?>
 
 </head>
 <body>
